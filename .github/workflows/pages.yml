@@ -19,14 +19,10 @@ jobs:
   preflight:
     runs-on: ubuntu-latest
     steps:
-      - name: Require account and publication readiness
+      - name: Require manual publication confirmation
         env:
-          AMAZON_ACCOUNT_READY: ${{ vars.AMAZON_ACCOUNT_READY }}
-          PUBLICATION_APPROVED: ${{ vars.PUBLICATION_APPROVED }}
           CONFIRM_PUBLICATION: ${{ inputs.confirm_publication }}
         run: |
-          test "$AMAZON_ACCOUNT_READY" = "true" || { echo "Amazon account readiness is not confirmed."; exit 1; }
-          test "$PUBLICATION_APPROVED" = "true" || { echo "Publication approval is not enabled."; exit 1; }
           test "$CONFIRM_PUBLICATION" = "yes" || { echo "Manual publication confirmation was not given."; exit 1; }
 
   deploy:

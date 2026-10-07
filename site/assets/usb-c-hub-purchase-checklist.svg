@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">USB-Cハブの購入前チェック4段階</title>
+  <desc id="desc">PCの型番とポートを調べ、必要機能を決め、接続する機器とケーブルの仕様を照合し、同時利用の制限を確認する4段階。</desc>
+  <rect width="1200" height="360" rx="28" fill="#f4f7fb"/>
+  <text x="52" y="65" font-family="sans-serif" font-size="30" font-weight="700" fill="#17324d">購入前チェックはこの順番</text>
+  <g font-family="sans-serif">
+    <rect x="48" y="105" width="252" height="190" rx="20" fill="#fff" stroke="#b8ccdf" stroke-width="2"/><circle cx="88" cy="148" r="24" fill="#195da8"/><text x="88" y="157" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">1</text><text x="72" y="203" font-size="21" font-weight="700" fill="#17324d">PCを特定</text><text x="72" y="237" font-size="16" fill="#536579">型番とUSB-Cポート</text><text x="72" y="262" font-size="16" fill="#536579">の仕様を調べる</text>
+    <path d="M310 200h28m-9-9 9 9-9 9" fill="none" stroke="#66809a" stroke-width="3"/>
+    <rect x="348" y="105" width="252" height="190" rx="20" fill="#fff" stroke="#b8ccdf" stroke-width="2"/><circle cx="388" cy="148" r="24" fill="#195da8"/><text x="388" y="157" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">2</text><text x="372" y="203" font-size="21" font-weight="700" fill="#17324d">用途を決める</text><text x="372" y="237" font-size="16" fill="#536579">映像・データ・充電</text><text x="372" y="262" font-size="16" fill="#536579">何が必要か書き出す</text>
+    <path d="M610 200h28m-9-9 9 9-9 9" fill="none" stroke="#66809a" stroke-width="3"/>
+    <rect x="648" y="105" width="252" height="190" rx="20" fill="#fff" stroke="#b8ccdf" stroke-width="2"/><circle cx="688" cy="148" r="24" fill="#195da8"/><text x="688" y="157" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">3</text><text x="672" y="203" font-size="21" font-weight="700" fill="#17324d">仕様を照合</text><text x="672" y="237" font-size="16" fill="#536579">ハブ・ケーブル・機器</text><text x="672" y="262" font-size="16" fill="#536579">すべてを確認する</text>
+    <path d="M910 200h28m-9-9 9 9-9 9" fill="none" stroke="#66809a" stroke-width="3"/>
+    <rect x="948" y="105" width="204" height="190" rx="20" fill="#fff" stroke="#b8ccdf" stroke-width="2"/><circle cx="988" cy="148" r="24" fill="#195da8"/><text x="988" y="157" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">4</text><text x="972" y="203" font-size="21" font-weight="700" fill="#17324d">同時利用</text><text x="972" y="237" font-size="16" fill="#536579">複数機器を一緒に</text><text x="972" y="262" font-size="16" fill="#536579">使う条件も確認</text>
+  </g>
+</svg>

@@ -1,26 +1,22 @@
-# GitHub Pages site package
+# GitHub Pages: purchase guides
 
-This package contains only a static website shell and a manually triggered GitHub Pages workflow. It does not contain the local database, research records, credentials, or the content-generation system.
+This public site contains ten source-attributed, non-product-specific guides for checking PC accessory compatibility. It currently has no advertisements or affiliate links, and it does not claim product testing, personal use, prices, or rankings.
 
-## Before making it public
+The site is a static package. It contains no credentials, local database, research inbox, or content-generation system. Article sources and check dates are shown on the page.
 
-The prepared page is a neutral placeholder. Do not replace it with affiliate content or publish it until the Associates account and public disclosure have been verified and the account holder authorizes the release.
+## Publish
 
-For GitHub Free, GitHub Pages requires a public repository. The repository will expose its files publicly. Create a dedicated repository for this package; do not push the full local project.
+1. In repository Settings > Pages, select GitHub Actions as the publishing source.
+2. Open Actions and choose “Publish website to GitHub Pages”.
+3. Select `yes` for the manual publication confirmation and run the workflow.
 
-## Setup
+The workflow is manual-only and defaults to `no`. It deploys the static `site` folder. Once the deployment succeeds, GitHub Pages displays the live URL in the workflow run.
 
-1. Create a dedicated public repository on GitHub.
-2. Copy this package's `.github` directory, `site` directory, and this `README.md` to the repository root.
-3. In the repository's Settings > Pages, select GitHub Actions as the publishing source.
-4. After account readiness and the disclosure are verified, add these repository variables under Settings > Secrets and variables > Actions > Variables:
-   - `AMAZON_ACCOUNT_READY` = `true`
-   - `PUBLICATION_APPROVED` = `true`
-5. To publish, open Actions, choose “Publish website to GitHub Pages”, select `yes` for the manual confirmation, and run the workflow.
+## Contents
 
-The workflow is manual-only. Its default confirmation is `no`, and it stops unless both readiness variables are set to `true`.
+- `site/index.html` — guide index and all ten articles
+- `site/style.css` — responsive layout
+- `site/assets/` — original, accessible SVG diagrams
+- `.github/workflows/pages.yml` — manually triggered Pages deployment
 
-## Website files
-
-- `site/index.html`
-- `site/style.css`
+Affiliate links or Amazon account claims are not included. Any future change to add them requires a separate content and policy review.
