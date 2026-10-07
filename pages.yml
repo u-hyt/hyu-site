@@ -1,0 +1,53 @@
+name: Publish website to GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_publication:
+        description: Type yes to publish the prepared website
+        required: true
+        type: choice
+        options:
+          - no
+          - yes
+        default: no
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require account and publication readiness
+        env:
+          AMAZON_ACCOUNT_READY: ${{ vars.AMAZON_ACCOUNT_READY }}
+          PUBLICATION_APPROVED: ${{ vars.PUBLICATION_APPROVED }}
+          CONFIRM_PUBLICATION: ${{ inputs.confirm_publication }}
+        run: |
+          test "$AMAZON_ACCOUNT_READY" = "true" || { echo "Amazon account readiness is not confirmed."; exit 1; }
+          test "$PUBLICATION_APPROVED" = "true" || { echo "Publication approval is not enabled."; exit 1; }
+          test "$CONFIRM_PUBLICATION" = "yes" || { echo "Manual publication confirmation was not given."; exit 1; }
+
+  deploy:
+    needs: preflight
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out site package
+        uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
