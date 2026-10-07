@@ -1,6 +1,6 @@
 # GitHub Pages: purchase guides
 
-This public site contains ten source-attributed, non-product-specific guides for checking PC accessory compatibility. It currently has no advertisements or affiliate links, and it does not claim product testing, personal use, prices, or rankings.
+This public site contains ten source-attributed, non-product-specific guides for checking PC accessory compatibility. Each guide links to a tagged Amazon.co.jp search page for related products. The site does not claim product testing, personal use, prices, or rankings.
 
 The site is a static package. It contains no credentials, local database, research inbox, or content-generation system. Article sources and check dates are shown on the page.
 
@@ -19,4 +19,4 @@ The workflow is manual-only and defaults to `no`. It deploys the static `site` f
 - `site/assets/` — original, accessible SVG diagrams
 - `.github/workflows/pages.yml` — manually triggered Pages deployment
 
-Affiliate links or Amazon account claims are not included. Any future change to add them requires a separate content and policy review.
+The site displays an Associates disclosure near each search link and the program's required statement in the footer. Product facts and product endorsements are not generated from the search links.
