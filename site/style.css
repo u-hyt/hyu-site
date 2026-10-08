@@ -2,3 +2,5 @@
 .affiliate-cta{margin:2rem 0 1rem;padding:18px 20px;background:#f6f9fc;border:1px solid var(--line);border-radius:14px}.affiliate-note{margin:0 0 10px;color:var(--muted);font-size:.88rem}.affiliate-link{display:inline-flex;align-items:center;padding:.65rem 1rem;border-radius:999px;background:#173e59;color:#fff;font-weight:700;text-decoration:none}.affiliate-link:hover{background:#225c7d}.disclosure{font-weight:650;color:var(--ink)}
 
 .article-header{padding:20px 0;background:linear-gradient(145deg,#f7fbff,#eaf3f9)}.article-home-link{display:inline-block;margin-top:8px;font-weight:700}.guide-article h1{margin:.3rem 0 1.3rem;font-size:clamp(1.5rem,4vw,2.25rem);line-height:1.35}
+
+.purchase-checklist{margin:1.6rem 0;padding:18px 20px;background:#f3f7fb;border:1px solid #d8e2eb;border-radius:14px}.purchase-checklist h3{margin-top:0}.purchase-checklist p:last-child{margin-bottom:0}
