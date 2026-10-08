@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="diagram-title diagram-desc">
+<title id="diagram-title">モニターアームの確認手順</title>
+<desc id="diagram-desc">モニターの型番と取付条件、机の天板、固定方式、アームの対応範囲と調整範囲を照合する図。</desc>
+<rect width="1280" height="420" rx="24" fill="#f3f7fb"/>
+<text x="40" y="56" fill="#172c3f" font-family="system-ui, sans-serif" font-size="28" font-weight="700">モニターアームの確認手順</text>
+<text x="40" y="84" fill="#536879" font-family="system-ui, sans-serif" font-size="16">購入前に仕様を照合する4つのステップ</text>
+<rect x='30' y='112' width='260' height='248' rx='18' fill='#ffffff' stroke='#d8e2eb' stroke-width='2'/>
+<circle cx='61' cy='148' r='19' fill='#e0effa'/>
+<text x='61' y='154' text-anchor='middle' fill='#1a5c8b' font-family='system-ui, sans-serif' font-size='16' font-weight='700'>1</text>
+<text x='91' y='154' fill='#172c3f' font-family='system-ui, sans-serif' font-size='20' font-weight='700'>モニター</text>
+<text x='52' y='214' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>型番・重量・取付穴</text>
+<text x='52' y='246' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>仕様を確認</text>
+<path d='M 300 236 H 338 M 330 228 L 338 236 L 330 244' fill='none' stroke='#397988' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<rect x='350' y='112' width='260' height='248' rx='18' fill='#ffffff' stroke='#d8e2eb' stroke-width='2'/>
+<circle cx='381' cy='148' r='19' fill='#e0effa'/>
+<text x='381' y='154' text-anchor='middle' fill='#1a5c8b' font-family='system-ui, sans-serif' font-size='16' font-weight='700'>2</text>
+<text x='411' y='154' fill='#172c3f' font-family='system-ui, sans-serif' font-size='20' font-weight='700'>机の条件</text>
+<text x='372' y='214' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>天板の厚さ・縁</text>
+<text x='372' y='246' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>固定具の空間</text>
+<path d='M 620 236 H 658 M 650 228 L 658 236 L 650 244' fill='none' stroke='#397988' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<rect x='670' y='112' width='260' height='248' rx='18' fill='#ffffff' stroke='#d8e2eb' stroke-width='2'/>
+<circle cx='701' cy='148' r='19' fill='#e0effa'/>
+<text x='701' y='154' text-anchor='middle' fill='#1a5c8b' font-family='system-ui, sans-serif' font-size='16' font-weight='700'>3</text>
+<text x='731' y='154' fill='#172c3f' font-family='system-ui, sans-serif' font-size='20' font-weight='700'>固定方式</text>
+<text x='692' y='214' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>対応重量・サイズ</text>
+<text x='692' y='246' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>机との適合を照合</text>
+<path d='M 940 236 H 978 M 970 228 L 978 236 L 970 244' fill='none' stroke='#397988' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<rect x='990' y='112' width='260' height='248' rx='18' fill='#ffffff' stroke='#d8e2eb' stroke-width='2'/>
+<circle cx='1021' cy='148' r='19' fill='#e0effa'/>
+<text x='1021' y='154' text-anchor='middle' fill='#1a5c8b' font-family='system-ui, sans-serif' font-size='16' font-weight='700'>4</text>
+<text x='1051' y='154' fill='#172c3f' font-family='system-ui, sans-serif' font-size='20' font-weight='700'>調整範囲</text>
+<text x='1012' y='214' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>高さ・距離・角度</text>
+<text x='1012' y='246' fill='#2e4355' font-family='system-ui, sans-serif' font-size='17'>用途に合わせる</text>
+<text x="640" y="398" text-anchor="middle" fill="#536879" font-family="system-ui, sans-serif" font-size="16">寸法や対応範囲が不明なら注文前に確認</text>
+</svg>
