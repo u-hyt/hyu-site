@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 490" role="img" aria-labelledby="title desc">
+<title id="title">テンキーの選び方：接続方式・配列・机上スペースを確認 — 購入前チェック図</title>
+<desc id="desc">購入前に確認する項目: 必要なキーと配置図、端子・無線・電源・表示、机幅とマウスまでの距離</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3f9fb"/><stop offset="1" stop-color="#edf4f8"/></linearGradient></defs>
+<rect width="640" height="490" rx="24" fill="url(#bg)"/>
+<text x="28" y="52" class="heading">購入前の確認ポイント</text>
+<g>
+ <rect x="20" y="86" width="600" height="106" rx="18" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+ <circle cx="66" cy="139" r="22" fill="#173e59"/>
+ <text x="66" y="145" text-anchor="middle" class="number">1</text>
+ <text x="116" y="141" class="item"><tspan x="116" dy="0">必要なキーと配置図</tspan></text>
+</g><g>
+ <rect x="20" y="204" width="600" height="106" rx="18" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+ <circle cx="66" cy="257" r="22" fill="#173e59"/>
+ <text x="66" y="263" text-anchor="middle" class="number">2</text>
+ <text x="116" y="259" class="item"><tspan x="116" dy="0">端子・無線・電源・表示</tspan></text>
+</g><g>
+ <rect x="20" y="322" width="600" height="106" rx="18" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+ <circle cx="66" cy="375" r="22" fill="#173e59"/>
+ <text x="66" y="381" text-anchor="middle" class="number">3</text>
+ <text x="116" y="377" class="item"><tspan x="116" dy="0">机幅とマウスまでの距離</tspan></text>
+</g>
+<text x="28" y="470" class="footnote">本文の確認メモを図に整理しています。詳しい条件は記事と出典をご確認ください。</text>
+<style>
+ text{font-family:system-ui,'Meiryo',sans-serif;fill:#172c3f}
+ .heading{font-size:26px;font-weight:750;letter-spacing:.02em}
+ .number{font-size:16px;font-weight:750;fill:#ffffff}
+ .item{font-size:20px;font-weight:700}
+ .footnote{font-size:13px;fill:#536879}
+</style>
+</svg>

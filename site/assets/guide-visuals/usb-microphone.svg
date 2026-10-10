@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 420" role="img" aria-labelledby="title desc">
+<title id="title">USBマイクの選び方：接続・入力端子・アプリ権限を確認 — 購入前チェック図</title>
+<desc id="desc">購入前に確認する項目: PC接続・OS、入力選択、アプリ権限・テスト、利用機器のメーカー仕様と対応OS、不明点を問い合わせるメーカー窓口</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3f9fb"/><stop offset="1" stop-color="#edf4f8"/></linearGradient></defs>
+<rect width="1080" height="420" rx="26" fill="url(#bg)"/>
+<text x="32" y="56" class="heading">購入前の確認ポイント</text>
+<text x="1048" y="55" class="subheading" text-anchor="end">CHECKLIST · 5 ITEMS</text>
+<g>
+  <rect x="20" y="94" width="195" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="54" cy="136" r="19" fill="#173e59"/>
+  <text x="54" y="142" text-anchor="middle" class="number">1</text>
+  <text x="84" y="141" class="step" font-size="14">確認ポイント</text>
+  <path d="M36 173h163" stroke="#e6eef3" stroke-width="2"/>
+  <text x="117" y="224" text-anchor="middle" class="item" font-size="14"><tspan x="117" dy="0">PC接続・OS</tspan></text>
+  <circle cx="101" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="117" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="133" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="231" y="94" width="195" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="265" cy="136" r="19" fill="#173e59"/>
+  <text x="265" y="142" text-anchor="middle" class="number">2</text>
+  <text x="295" y="141" class="step" font-size="14">確認ポイント</text>
+  <path d="M247 173h163" stroke="#e6eef3" stroke-width="2"/>
+  <text x="328" y="224" text-anchor="middle" class="item" font-size="14"><tspan x="328" dy="0">入力選択</tspan></text>
+  <circle cx="312" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="328" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="344" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="442" y="94" width="195" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="476" cy="136" r="19" fill="#173e59"/>
+  <text x="476" y="142" text-anchor="middle" class="number">3</text>
+  <text x="506" y="141" class="step" font-size="14">確認ポイント</text>
+  <path d="M458 173h163" stroke="#e6eef3" stroke-width="2"/>
+  <text x="539" y="224" text-anchor="middle" class="item" font-size="14"><tspan x="539" dy="0">アプリ権限・テスト</tspan></text>
+  <circle cx="523" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="539" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="555" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="653" y="94" width="195" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="687" cy="136" r="19" fill="#173e59"/>
+  <text x="687" y="142" text-anchor="middle" class="number">4</text>
+  <text x="717" y="141" class="step" font-size="14">確認ポイント</text>
+  <path d="M669 173h163" stroke="#e6eef3" stroke-width="2"/>
+  <text x="750" y="213" text-anchor="middle" class="item" font-size="14"><tspan x="750" dy="0">利用機器のメーカー仕様</tspan><tspan x="750" dy="22">と対応OS</tspan></text>
+  <circle cx="734" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="750" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="766" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="864" y="94" width="195" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="898" cy="136" r="19" fill="#173e59"/>
+  <text x="898" y="142" text-anchor="middle" class="number">5</text>
+  <text x="928" y="141" class="step" font-size="14">確認ポイント</text>
+  <path d="M880 173h163" stroke="#e6eef3" stroke-width="2"/>
+  <text x="961" y="213" text-anchor="middle" class="item" font-size="14"><tspan x="961" dy="0">不明点を問い合わせるメ</tspan><tspan x="961" dy="22">ーカー窓口</tspan></text>
+  <circle cx="945" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="961" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="977" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g fill="none" stroke="#2b7a78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M219 231h8m-8-7 8 7-8 7"/>
+<path d="M430 231h8m-8-7 8 7-8 7"/>
+<path d="M641 231h8m-8-7 8 7-8 7"/>
+<path d="M852 231h8m-8-7 8 7-8 7"/>
+</g>
+<text x="32" y="402" class="footnote">記事内の「購入前の確認メモ」を図に整理しています。条件の詳細は本文と出典をご確認ください。</text>
+<style>
+ text{font-family:system-ui,'Meiryo',sans-serif;fill:#172c3f}
+ .heading{font-size:27px;font-weight:750;letter-spacing:.02em}
+ .subheading{font-size:12px;font-weight:700;letter-spacing:.16em;fill:#397988}
+ .number{font-size:16px;font-weight:750;fill:#ffffff}
+ .step{font-size:15px;font-weight:700;fill:#397988}
+ .item{font-size:19px;font-weight:700}
+ .footnote{font-size:13px;fill:#536879}
+</style>
+</svg>

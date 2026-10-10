@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 420" role="img" aria-labelledby="title desc">
+<title id="title">テンキーの選び方：接続方式・配列・机上スペースを確認 — 購入前チェック図</title>
+<desc id="desc">購入前に確認する項目: 必要なキーと配置図、端子・無線・電源・表示、机幅とマウスまでの距離</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3f9fb"/><stop offset="1" stop-color="#edf4f8"/></linearGradient></defs>
+<rect width="1080" height="420" rx="26" fill="url(#bg)"/>
+<text x="32" y="56" class="heading">購入前の確認ポイント</text>
+<text x="1048" y="55" class="subheading" text-anchor="end">CHECKLIST · 3 ITEMS</text>
+<g>
+  <rect x="20" y="94" width="320" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="54" cy="136" r="19" fill="#173e59"/>
+  <text x="54" y="142" text-anchor="middle" class="number">1</text>
+  <text x="84" y="141" class="step" font-size="15">確認ポイント</text>
+  <path d="M36 173h288" stroke="#e6eef3" stroke-width="2"/>
+  <text x="180" y="224" text-anchor="middle" class="item" font-size="18"><tspan x="180" dy="0">必要なキーと配置図</tspan></text>
+  <circle cx="164" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="180" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="196" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="380" y="94" width="320" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="414" cy="136" r="19" fill="#173e59"/>
+  <text x="414" y="142" text-anchor="middle" class="number">2</text>
+  <text x="444" y="141" class="step" font-size="15">確認ポイント</text>
+  <path d="M396 173h288" stroke="#e6eef3" stroke-width="2"/>
+  <text x="540" y="224" text-anchor="middle" class="item" font-size="18"><tspan x="540" dy="0">端子・無線・電源・表示</tspan></text>
+  <circle cx="524" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="540" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="556" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g>
+  <rect x="740" y="94" width="320" height="274" rx="22" fill="#ffffff" stroke="#d8e5ed" stroke-width="2"/>
+  <circle cx="774" cy="136" r="19" fill="#173e59"/>
+  <text x="774" y="142" text-anchor="middle" class="number">3</text>
+  <text x="804" y="141" class="step" font-size="15">確認ポイント</text>
+  <path d="M756 173h288" stroke="#e6eef3" stroke-width="2"/>
+  <text x="900" y="224" text-anchor="middle" class="item" font-size="18"><tspan x="900" dy="0">机幅とマウスまでの距離</tspan></text>
+  <circle cx="884" cy="326" r="5" fill="#2b7a78"/>
+  <circle cx="900" cy="326" r="5" fill="#78a9a1"/>
+  <circle cx="916" cy="326" r="5" fill="#b7d2ce"/>
+</g>
+<g fill="none" stroke="#2b7a78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M344 231h32m-8-7 8 7-8 7"/>
+<path d="M704 231h32m-8-7 8 7-8 7"/>
+</g>
+<text x="32" y="402" class="footnote">記事内の「購入前の確認メモ」を図に整理しています。条件の詳細は本文と出典をご確認ください。</text>
+<style>
+ text{font-family:system-ui,'Meiryo',sans-serif;fill:#172c3f}
+ .heading{font-size:27px;font-weight:750;letter-spacing:.02em}
+ .subheading{font-size:12px;font-weight:700;letter-spacing:.16em;fill:#397988}
+ .number{font-size:16px;font-weight:750;fill:#ffffff}
+ .step{font-size:15px;font-weight:700;fill:#397988}
+ .item{font-size:19px;font-weight:700}
+ .footnote{font-size:13px;fill:#536879}
+</style>
+</svg>
