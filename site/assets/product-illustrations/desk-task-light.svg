@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+<title id="title">デスクライトの選び方：設置場所・反射・調光を確認 — デスクライトのカテゴリイラスト</title>
+<desc id="desc">特定の販売商品ではなく、デスクライトという製品カテゴリを示すオリジナルの説明イラストです。</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f9fc"/><stop offset="1" stop-color="#e8f2f7"/></linearGradient><filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#143b53" flood-opacity=".13"/></filter></defs>
+<rect x="5" y="5" width="550" height="350" rx="28" fill="url(#bg)" stroke="#d8e5ed" stroke-width="2"/>
+<circle cx="478" cy="92" r="37" fill="#dcecf1"/><circle cx="91" cy="259" r="25" fill="#dcecf1"/>
+<g filter="url(#shadow)" stroke-linecap="round" stroke-linejoin="round"><path d="M141 109h150l-32 66h-86z" fill="#f1ad58" stroke="#17445f" stroke-width="8" stroke-linejoin="round"/><path d="m240 176 93 72m-93-72-44 78m117-6h95" fill="none" stroke="#17445f" stroke-width="12" stroke-linecap="round"/><path d="M190 278h213" stroke="#2e83ae" stroke-width="17" stroke-linecap="round"/><path d="M160 187h-33m210-8 27-23m-7 49 39-1" stroke="#f1ad58" stroke-width="8" stroke-linecap="round"/></g>
+<rect x="157" y="286" width="246" height="31" rx="16" fill="#ffffff" stroke="#d8e5ed"/>
+<text x="280" y="307" text-anchor="middle" font-family="system-ui,'Meiryo',sans-serif" font-size="16" font-weight="700" fill="#17445f">デスクライト</text>
+<text x="280" y="339" text-anchor="middle" font-family="system-ui,'Meiryo',sans-serif" font-size="11" letter-spacing=".09em" fill="#536879">製品カテゴリのイメージ</text>
+</svg>

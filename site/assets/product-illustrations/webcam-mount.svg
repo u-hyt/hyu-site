@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+<title id="title">ウェブカメラ用マウントの選び方：取付規格・角度・固定位置 — ウェブカメラ用マウントのカテゴリイラスト</title>
+<desc id="desc">特定の販売商品ではなく、ウェブカメラ用マウントという製品カテゴリを示すオリジナルの説明イラストです。</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f9fc"/><stop offset="1" stop-color="#e8f2f7"/></linearGradient><filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#143b53" flood-opacity=".13"/></filter></defs>
+<rect x="5" y="5" width="550" height="350" rx="28" fill="url(#bg)" stroke="#d8e5ed" stroke-width="2"/>
+<circle cx="478" cy="92" r="37" fill="#dcecf1"/><circle cx="91" cy="259" r="25" fill="#dcecf1"/>
+<g filter="url(#shadow)" stroke-linecap="round" stroke-linejoin="round"><rect x="207" y="85" width="146" height="89" rx="22" fill="#2e83ae" stroke="#17445f" stroke-width="8"/><circle cx="280" cy="129" r="26" fill="#f1ad58" stroke="#17445f" stroke-width="6"/><path d="M280 174v80q0 22-22 22h-65v37h174v-37h-65q-22 0-22-22" fill="none" stroke="#17445f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="157" y="286" width="246" height="31" rx="16" fill="#ffffff" stroke="#d8e5ed"/>
+<text x="280" y="307" text-anchor="middle" font-family="system-ui,'Meiryo',sans-serif" font-size="16" font-weight="700" fill="#17445f">ウェブカメラ用マウント</text>
+<text x="280" y="339" text-anchor="middle" font-family="system-ui,'Meiryo',sans-serif" font-size="11" letter-spacing=".09em" fill="#536879">製品カテゴリのイメージ</text>
+</svg>
