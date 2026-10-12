@@ -1,6 +1,6 @@
 # GitHub Pages: purchase guides
 
-This static site package contains fifty source-attributed, non-product-specific guides for checking PC accessory compatibility, plus university and high-school entrance reference-book guides. The study guides compare books by subject and learning stage, cite publisher and MEXT sources, and link to tagged Amazon.co.jp search pages. The site does not claim product testing, personal use, rankings, or guaranteed admissions outcomes.
+This static site package contains fifty source-attributed, non-product-specific guides for checking PC accessory compatibility, plus university, high-school entrance, and parent-oriented elementary/junior-high entrance study guides. The study guides compare books by subject and learning stage, cite publisher and MEXT sources, and link to tagged Amazon.co.jp search pages. The site does not claim product testing, personal use, rankings, or guaranteed admissions outcomes.
 
 The site is a static package. It contains no credentials, local database, research inbox, or content-generation system. Article sources and check dates are shown on the page.
 
@@ -14,9 +14,10 @@ The workflow is manual-only and defaults to `no`. It deploys the static `site` f
 
 ## Contents
 
-- `site/index.html` — public guide index, including the university-study feature link
+- `site/index.html` — public guide index, including university, high-school, and parent-oriented middle-school entrance study feature links
 - `site/university-books/` — university entrance reference-book routes and comparisons
 - `site/highschool-entrance/` — high-school entrance reference-book routes for junior-high students
+- `site/elementary-entrance/` — parent guide to elementary lesson-support materials and middle-school entrance prep
 - `site/guide-1.html` through `site/guide-10.html` plus forty topic-named pages — individual guides with source notes and affiliate disclosures
 - `site/style.css` — responsive layout
 - `site/assets/` — original, accessible SVG diagrams
