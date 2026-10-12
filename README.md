@@ -15,6 +15,7 @@ The workflow is manual-only and defaults to `no`. It deploys the static `site` f
 ## Contents
 
 - `site/index.html` — public guide index, including independent study-series links
+- `site/about/` — editorial policy, source approach, and affiliate disclosure
 - `site/university-books/`, `site/highschool-entrance/`, and `site/elementary-entrance/` — legacy redirects to the independent study guide site
 - `site/highschool-entrance/` — high-school entrance reference-book routes for junior-high students
 - `site/elementary-entrance/` — parent guide to elementary lesson-support materials and middle-school entrance prep
