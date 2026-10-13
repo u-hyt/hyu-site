@@ -14,6 +14,8 @@ The workflow is manual-only and defaults to `no`. It deploys the static `site` f
 
 ## Contents
 
+- `site/mama/` — standalone parent and household guides by child age and situation; homepage feature link and sitemap included
+
 - `site/index.html` — public guide index, including independent study-series links
 - `site/about/` — editorial policy, source approach, and affiliate disclosure
 - `site/university-books/`, `site/highschool-entrance/`, and `site/elementary-entrance/` — legacy redirects to the independent study guide site

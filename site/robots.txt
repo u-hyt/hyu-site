@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://u-hyt.github.io/hyu-site/sitemap.xml
+
+Sitemap: https://u-hyt.github.io/hyu-site/mama/sitemap.xml
