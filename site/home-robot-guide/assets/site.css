@@ -21,10 +21,10 @@
 .category-card{padding-bottom:30px}
 @media(max-width:520px){.nav{align-items:flex-start;flex-wrap:wrap;gap:12px}.navlinks{order:3;width:100%;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:10px}.navlinks a{font-size:11px}.category-card{min-height:200px}.product-art{height:220px}.product-art .image-note{font-size:9px}}
 
-/* Product captions stay in their own row below generated artwork. */
-.product-art{height:auto;min-height:0;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;overflow:hidden}
-.product-art:before{display:none}
-.product-visual{position:relative;width:100%;height:190px;flex:0 0 190px;overflow:hidden;background:#e5e9e1}
-.product-visual img{position:static;display:block;width:100%;height:100%;object-fit:cover}
-.product-art .image-note{position:static;display:flex;align-items:center;justify-content:center;left:auto;right:auto;bottom:auto;width:100%;min-height:36px;box-sizing:border-box;padding:7px 8px;text-align:center;white-space:normal;overflow-wrap:anywhere;line-height:1.4;background:#fffdf7;color:#35424d;font:10px/1.4 var(--sans);z-index:auto}
-@media(max-width:520px){.product-art{height:auto}.product-visual{height:200px;flex-basis:200px}.product-art .image-note{font-size:10px}}
+/* Product artwork contains only the robot image; its explanation sits outside it. */
+.product-media{display:flex;flex-direction:column;background:var(--paper)}
+.product-media .product-art{height:215px;min-height:0;display:grid;place-items:center;position:relative;overflow:hidden;margin:0;background:#f5f2e9}
+.product-media .product-art:before{display:none}
+.product-media .product-art>img{position:static;inset:auto;display:block;width:100%;height:100%;object-fit:contain}
+.product-media .image-note{display:block;position:static;margin:0;padding:6px 8px 9px;box-sizing:border-box;text-align:center;white-space:normal;overflow-wrap:anywhere;line-height:1.4;background:#fffdf7;color:#35424d;font:10px/1.4 var(--sans)}
+@media(max-width:520px){.product-media .product-art{height:220px}.product-media .image-note{font-size:10px}}
