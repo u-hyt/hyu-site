@@ -65,4 +65,18 @@ body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-g
 /* Keep single-product genre pages balanced beneath their full-width guidance. */
 body[data-page="floor"] main > section.wrap.section > .feature-split,body[data-page="pets"] main > section.wrap.section > .feature-split{grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
 body[data-page="floor"] main > section.wrap.section > .feature-split>div:last-child,body[data-page="pets"] main > section.wrap.section > .feature-split>div:last-child{width:min(100%,560px);margin:0 auto}
-body[data-page="floor"] main > section.wrap.section > .feature-split .product-grid,body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:minmax(0,1fr)}
+body[data-page="floor"] main > section.wrap.section > .feature-split .product-grid,body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:minmax(0,1fr)}/* Clear, illustrated mopping workflow. */
+.mop-process{margin:0 0 22px;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#fffefa}
+.mop-process img{display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:cover}
+.mop-process figcaption{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:12px 8px;gap:8px;text-align:center;font-size:12px;font-weight:700;color:#40535a}
+.mop-process figcaption span+span{border-left:1px solid var(--line)}
+.mop-flow .diagram-step{padding:18px;border-radius:12px;background:#fffefa;box-shadow:0 8px 24px rgba(43,55,51,.06)}
+.mop-step-top{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+.mop-step-number{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#334b55;color:#fff;font:12px var(--mono)}
+.mop-step-tag{font:10px var(--mono);letter-spacing:.09em;color:#758881}
+.mop-flow .diagram-step h3{margin:0 0 7px;font-size:17px}
+.mop-flow .diagram-step p{min-height:63px;font-size:12px;line-height:1.75}
+.mop-checkline{display:flex;align-items:center;gap:8px;margin-top:12px;padding-top:10px;border-top:1px solid #e6e5dc;font-size:11px;color:#526159}
+.mop-checkline b{padding:3px 7px;border-radius:4px;background:#e7eddf;color:#536b58;font-size:10px;white-space:nowrap}
+@media(max-width:800px){.mop-flow .diagram-step:not(:last-child):after{content:"↓";right:50%;bottom:-14px;top:auto;transform:translate(50%,50%)}}
+@media(max-width:520px){.mop-process figcaption{font-size:10px;padding:9px 3px;gap:3px}.mop-flow .diagram-step p{min-height:0}}
