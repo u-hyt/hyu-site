@@ -28,3 +28,13 @@
 .product-media .product-art>img{position:static;inset:auto;display:block;width:100%;height:100%;object-fit:contain}
 .product-media .image-note{display:block;position:static;margin:0;padding:6px 8px 9px;box-sizing:border-box;text-align:center;white-space:normal;overflow-wrap:anywhere;line-height:1.4;background:#fffdf7;color:#35424d;font:10px/1.4 var(--sans)}
 @media(max-width:520px){.product-media .product-art{height:220px}.product-media .image-note{font-size:10px}}
+/* Give the robot-vacuum guide its own full-width product row. */
+body[data-page="vacuum"] main > section.wrap.section > .section-head h2{font-size:clamp(24px,2.6vw,32px);line-height:1.25;max-width:700px}
+body[data-page="vacuum"] main > section.wrap.section > .feature-split{grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
+body[data-page="vacuum"] main > section.wrap.section > .feature-split>div{min-width:0}
+body[data-page="vacuum"] main > section.wrap.section > .feature-split>div:first-child .steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+body[data-page="vacuum"] main > section.wrap.section > .feature-split>div:first-child .step{align-content:start;border-top:1px solid var(--line);border-bottom:0;padding-top:14px}
+body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:800px){body[data-page="vacuum"] main > section.wrap.section > .feature-split>div:first-child .steps{grid-template-columns:1fr}}
+@media(max-width:800px){body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:1fr}body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-grid .product-card:last-child{grid-column:auto}}
