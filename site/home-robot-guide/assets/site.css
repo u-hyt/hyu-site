@@ -94,3 +94,18 @@ body[data-page="floor"] main > section.wrap.section > .feature-split .product-gr
 /* Keep the full companion-robot silhouette visible in its product card. */
 .product-media .product-art.pet{height:300px}
 .product-media .product-art.pet>img{position:static;display:block;width:auto;height:100%;max-width:100%;object-fit:contain!important;object-position:center center;background:#f5f2e9}
+/* Show the three companion options together on the pet guide. */
+body[data-page="pets"] main > section.wrap.section > .feature-split>div:last-child{width:100%;max-width:none}
+body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pet-style-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.pet-style-grid article{padding:20px;background:#fffdf7;border:1px solid var(--line);border-top:3px solid #91a39a}
+.pet-style-grid article:nth-child(2){border-top-color:#c89b63}
+.pet-style-grid article:nth-child(3){border-top-color:#b94a2b}
+.pet-style-grid article>span{font:10px var(--mono);letter-spacing:.08em;color:#68727c}
+.pet-style-grid h3{margin:10px 0 7px;font-size:17px;line-height:1.5}
+.pet-style-grid p{margin:0;color:#4d5963;font-size:12px;line-height:1.8}
+.pet-choice-note{display:flex;gap:18px;align-items:baseline;margin-top:18px;padding:15px 18px;background:#e7eddf;border-left:3px solid #8ca37d}
+.pet-choice-note strong{font-size:12px;white-space:nowrap}
+.pet-choice-note span{font-size:11px;color:#4d5b50;line-height:1.8}
+@media(max-width:800px){body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid .product-card:last-child{grid-column:auto}.pet-style-grid{grid-template-columns:1fr}.pet-choice-note{align-items:flex-start;flex-direction:column;gap:4px}}
+@media(max-width:520px){body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:1fr}.pet-choice-note{padding:13px 15px}}
