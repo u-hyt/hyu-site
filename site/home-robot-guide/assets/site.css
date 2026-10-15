@@ -62,3 +62,7 @@ body[data-page="vacuum"] main > section.wrap.section > .feature-split .product-g
 .callout-note{margin-top:18px;padding:14px 18px;display:flex;gap:18px;align-items:baseline;background:#e7eddf;border-left:3px solid #8ca37d}.callout-note strong{font-size:12px;white-space:nowrap}.callout-note span{font-size:11px;color:#4d5b50}
 @media(max-width:800px){.decision-flow,.diagram-steps,.cost-lifecycle{grid-template-columns:1fr;gap:14px}.decision-node:not(:last-child):after,.diagram-step:not(:last-child):after,.cost-stage:not(:last-child):after{content:"↓";top:auto;right:50%;bottom:-14px;transform:translate(50%,50%)}.explain-grid{grid-template-columns:1fr}.callout-note{align-items:flex-start;flex-direction:column;gap:4px}}
 @media(max-width:520px){.explainer-lead{font-size:13px}.decision-node,.diagram-step,.cost-stage{padding:18px}.diagram-frame{padding:6px}.svg-label{font-size:17px}}
+/* Keep single-product genre pages balanced beneath their full-width guidance. */
+body[data-page="floor"] main > section.wrap.section > .feature-split,body[data-page="pets"] main > section.wrap.section > .feature-split{grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
+body[data-page="floor"] main > section.wrap.section > .feature-split>div:last-child,body[data-page="pets"] main > section.wrap.section > .feature-split>div:last-child{width:min(100%,560px);margin:0 auto}
+body[data-page="floor"] main > section.wrap.section > .feature-split .product-grid,body[data-page="pets"] main > section.wrap.section > .feature-split .product-grid{grid-template-columns:minmax(0,1fr)}
