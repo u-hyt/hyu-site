@@ -91,3 +91,6 @@ body[data-page="floor"] main > section.wrap.section > .feature-split .product-gr
 .beginner-faq summary{cursor:pointer;font-size:15px;font-weight:700;color:#20323b;line-height:1.6}
 .beginner-faq details p{max-width:850px;margin:10px 0 0;color:#4d5963;font-size:13px;line-height:1.85}
 @media(max-width:800px){.beginner-start{padding:24px 18px}.beginner-start .decision-flow{grid-template-columns:1fr}.beginner-jump{display:block;width:fit-content}}
+/* Keep the full companion-robot silhouette visible in its product card. */
+.product-media .product-art.pet{height:300px}
+.product-media .product-art.pet>img{position:static;display:block;width:auto;height:100%;max-width:100%;object-fit:contain!important;object-position:center center;background:#f5f2e9}
